@@ -1,5 +1,6 @@
 {
-  "rewrites": [
-    {"source": "/(.*)", "destination": "http://34.80.211.80:10120/$1"}
+  "version": 2,
+  "routes": [
+      {"src": "/(.*)","dest": "http://34.80.211.80:10120/$1"}
   ]
 }
